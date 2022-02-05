@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "5JiwZVsO9tfzch9V7mF3BZhZXnPO6yrEtX4aQjr35/jCQ9maGw78xGtQJUO2PZznROp/KLGtmcNGmxEfORYndw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\kyrse\\OneDrive\\Documentos\\Wolforux\\Proyectos\\Godot\\MyFirstGame\\MyFirstGame.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\kyrse\\.nuget\\packages\\microsoft.netframework.referenceassemblies\\1.0.2\\microsoft.netframework.referenceassemblies.1.0.2.nupkg.sha512",
+    "C:\\Users\\kyrse\\.nuget\\packages\\microsoft.netframework.referenceassemblies.net472\\1.0.2\\microsoft.netframework.referenceassemblies.net472.1.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

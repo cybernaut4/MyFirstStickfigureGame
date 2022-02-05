@@ -1,0 +1,9 @@
+C:\Users\kyrse\OneDrive\Documentos\Wolforux\Proyectos\Godot\MyFirstGame\.mono\temp\bin\Debug\MyFirstGame.dll
+C:\Users\kyrse\OneDrive\Documentos\Wolforux\Proyectos\Godot\MyFirstGame\.mono\temp\bin\Debug\MyFirstGame.pdb
+C:\Users\kyrse\OneDrive\Documentos\Wolforux\Proyectos\Godot\MyFirstGame\.mono\temp\obj\Debug\MyFirstGame.csproj.AssemblyReference.cache
+C:\Users\kyrse\OneDrive\Documentos\Wolforux\Proyectos\Godot\MyFirstGame\.mono\temp\obj\Debug\MyFirstGame.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kyrse\OneDrive\Documentos\Wolforux\Proyectos\Godot\MyFirstGame\.mono\temp\obj\Debug\MyFirstGame.AssemblyInfoInputs.cache
+C:\Users\kyrse\OneDrive\Documentos\Wolforux\Proyectos\Godot\MyFirstGame\.mono\temp\obj\Debug\MyFirstGame.AssemblyInfo.cs
+C:\Users\kyrse\OneDrive\Documentos\Wolforux\Proyectos\Godot\MyFirstGame\.mono\temp\obj\Debug\MyFirstGame.csproj.CoreCompileInputs.cache
+C:\Users\kyrse\OneDrive\Documentos\Wolforux\Proyectos\Godot\MyFirstGame\.mono\temp\obj\Debug\MyFirstGame.dll
+C:\Users\kyrse\OneDrive\Documentos\Wolforux\Proyectos\Godot\MyFirstGame\.mono\temp\obj\Debug\MyFirstGame.pdb

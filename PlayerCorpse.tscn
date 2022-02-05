@@ -1,0 +1,180 @@
+[gd_scene load_steps=14 format=2]
+
+[ext_resource path="res://Assets/Player.RightLeg2.png" type="Texture" id=2]
+[ext_resource path="res://Assets/Player.LeftLeg2.png" type="Texture" id=3]
+[ext_resource path="res://Assets/Player.RightLeg1.png" type="Texture" id=4]
+[ext_resource path="res://Assets/Player.RightArm.png" type="Texture" id=5]
+[ext_resource path="res://Assets/Player.torso.png" type="Texture" id=6]
+[ext_resource path="res://Assets/Player.LeftLeg1.png" type="Texture" id=7]
+[ext_resource path="res://Assets/Player.head.png" type="Texture" id=8]
+[ext_resource path="res://Assets/Player.LeftArm.png" type="Texture" id=9]
+
+[sub_resource type="CircleShape2D" id=1]
+radius = 24.1868
+
+[sub_resource type="CapsuleShape2D" id=2]
+radius = 6.0
+height = 31.0
+
+[sub_resource type="CapsuleShape2D" id=3]
+radius = 8.0
+height = 36.0
+
+[sub_resource type="CapsuleShape2D" id=4]
+radius = 7.0
+height = 18.0
+
+[sub_resource type="CapsuleShape2D" id=5]
+radius = 6.0
+height = 15.7473
+
+[node name="PlayerCorpse" type="Node2D"]
+
+[node name="Head" type="RigidBody2D" parent="."]
+position = Vector2( 0, -40 )
+
+[node name="Sprite" type="Sprite" parent="Head"]
+position = Vector2( 0, 40 )
+texture = ExtResource( 8 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Head"]
+shape = SubResource( 1 )
+
+[node name="LeftArm" type="RigidBody2D" parent="."]
+position = Vector2( 11, -1 )
+rotation = -0.785398
+mass = 0.49
+
+[node name="PlayerLeftArm" type="Sprite" parent="LeftArm"]
+position = Vector2( -8.5, -7 )
+rotation = 0.785398
+texture = ExtResource( 9 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="LeftArm"]
+shape = SubResource( 2 )
+
+[node name="RightArm" type="RigidBody2D" parent="."]
+position = Vector2( -11, -1 )
+rotation = 0.785398
+mass = 0.49
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Sprite" type="Sprite" parent="RightArm"]
+position = Vector2( 8.5, -7 )
+rotation = -0.785398
+texture = ExtResource( 5 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="RightArm"]
+shape = SubResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Torso" type="RigidBody2D" parent="."]
+position = Vector2( 0, 6 )
+mass = 0.7
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Sprite" type="Sprite" parent="Torso"]
+position = Vector2( 0, -6 )
+texture = ExtResource( 6 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Torso"]
+shape = SubResource( 3 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="LeftLeg1" type="RigidBody2D" parent="."]
+position = Vector2( 5, 33 )
+rotation = -0.479966
+mass = 0.35
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Sprite" type="Sprite" parent="LeftLeg1"]
+position = Vector2( 10.9, -31.5 )
+rotation = 0.479966
+texture = ExtResource( 7 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="LeftLeg1"]
+shape = SubResource( 4 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="RightLeg1" type="RigidBody2D" parent="."]
+position = Vector2( -5, 33 )
+rotation = 0.479966
+mass = 0.35
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Sprite" type="Sprite" parent="RightLeg1"]
+position = Vector2( -10.9, -31.5 )
+rotation = -0.479966
+texture = ExtResource( 4 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="RightLeg1"]
+shape = SubResource( 4 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="LeftLeg2" type="RigidBody2D" parent="."]
+position = Vector2( 10, 50 )
+mass = 0.35
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Sprite" type="Sprite" parent="LeftLeg2"]
+position = Vector2( -10, -50 )
+texture = ExtResource( 3 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="LeftLeg2"]
+shape = SubResource( 5 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="RightLeg2" type="RigidBody2D" parent="."]
+position = Vector2( -10, 50 )
+mass = 0.35
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Sprite" type="Sprite" parent="RightLeg2"]
+position = Vector2( 10, -50 )
+texture = ExtResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="RightLeg2"]
+shape = SubResource( 5 )
+__meta__ = {
+"_edit_lock_": true
+}
